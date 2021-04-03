@@ -33,7 +33,7 @@ hr {
 img {
 	vertical-align: middle;
 }
- 
+
 textarea {
 	resize: vertical;
 }
@@ -44,7 +44,7 @@ textarea {
 html, body {
 	height: 100%;
 }
-body { 
+body {
 	font-weight: 300;
 	font-size: 16px;
 	color: #555;
@@ -54,9 +54,9 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 .logo a {
-margin: 0 auto; 
-display: inline-block; 
-} 
+margin: 0 auto;
+display: inline-block;
+}
 .logo a img{
 background:transparent;
 }
@@ -69,7 +69,7 @@ border-color: #F79D9D;
 color: #FFFFFF;
 }
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-color: #1F0E07;      
+color: #1F0E07;
 }
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
 color: #FFE6E6;
@@ -167,7 +167,7 @@ em {
 }
 pre {
 	background: #ebebeb;
-	border: none; 
+	border: none;
 	font-size: 16px;
 	color: #666;
 	padding: 20px;
@@ -225,19 +225,19 @@ a:before, a:after {
 	-ms-transition: color 0.1s ease-in, background 0.1s ease-in;
 	-o-transition: color 0.1s ease-in, background 0.1s ease-in;
 	transition: color 0.1s ease-in, background 0.1s ease-in;
-} 
+}
 /* ==========================================================================
    Wrap Sections
    ========================================================================== */
 
 #headerwrap {
 	background: url(../img/header_bg.jpg) no-repeat center top;
-	margin-top: -50px;
+	margin-top: 15px;
 	padding-top: 120px;
 	text-align: center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 850px;
+	min-height: 650px;
 	width: 100%;
 	-webkit-background-size: 100%;
 	-moz-background-size: 100%;
@@ -247,7 +247,7 @@ a:before, a:after {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	padding-bottom: 100px;
+	padding-bottom: 5px;
 }
 #headerwrap h1 {
 	color: #ffffff;
@@ -282,11 +282,11 @@ a:before, a:after {
 }
 #headerwrap .btn:hover, #headerwrap .btn:focus {
 	background-color:#fff;
-	color:#000; 
+	color:#000;
 	outline: 0px;
 	border-radius: 0px;
 }
- 
+
 .img-circle {
 border-radius: 50%;
 border: 1px solid #E89A2F;
@@ -468,14 +468,14 @@ margin-right: 12px;
 }
 ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
 	color: #ffbf00;
-} 
+}
 
 .white h1 {
 	color: #999;
 }
 .white p {
 	padding-top: 15px;
-} 
+}
 
 .grid figure {
 	margin: 0;
@@ -517,7 +517,7 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 	font-size: 13px;
 	background: #fff;
 }
- 
+
 .overlay figure {
 	overflow: hidden;
 }
