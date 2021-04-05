@@ -232,22 +232,21 @@ a:before, a:after {
 
 #headerwrap {
 	background: url(../img/header_bg.jpg) no-repeat center top;
-	margin-top: 15px;
-	padding-top: 120px;
+	position: relative;
+	margin-top: 20px;
+	padding-top: 80px;
 	text-align: center;
-	background-attachment: relative;
 	background-position: center center;
-	min-height: 650px;
+	min-height: 580px;
 	width: 100%;
 	-webkit-background-size: 100%;
 	-moz-background-size: 100%;
 	-o-background-size: 100%;
 	background-size: 100%;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	padding-bottom: 5px;
+	padding-bottom: 10px;
+}
+#headerwrap > img {
+	width: 100%;
 }
 #headerwrap h1 {
 	color: #ffffff;
@@ -618,4 +617,21 @@ margin: 10px auto;
 #team img{
 margin-top:30px;
 }
+}
+
+/******************HOME************************/
+/*****************formatting the dog & cat portofolio section*******************/
+
+/* Clearfix (clear floats) */
+.row-home-portfolio {
+	display: flex;
+  margin: 5px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.img-folio {
+	display: block;
+  max-width: 80%;
+  height: auto;
 }
