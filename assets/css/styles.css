@@ -624,7 +624,7 @@ margin-top:30px;
 .card-img-top {
   width: 100%;
 	min-width: 20vh;
-  height: 30vh;
+  height: 26vh;
   object-fit: cover;
 	border-radius: 0.25rem;
 }
@@ -641,9 +641,33 @@ margin-top:30px;
   border-color: transparent;
   border-radius: 0rem;
 }
-.card-deck {
-  margin: 20px;
+.card-columns {
+  margin: 10px;
 	margin-left: 55px;
+}
+
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 3;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-columns {
+        column-count: 4;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-columns {
+        column-count: 5;
+    }
 }
 
 .card-body {
