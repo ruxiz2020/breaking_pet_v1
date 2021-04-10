@@ -297,7 +297,7 @@ background: #fff;
 	padding: 100px 0;
 }
 #about img {
-	margin-top: 65px;
+	margin-top: 0px;
 }
 #services {
 	background: #ed8181;
@@ -621,49 +621,37 @@ margin-top:30px;
 
 /******************HOME************************/
 /*****************formatting the dog & cat portofolio section*******************/
-
-/* Clearfix (clear floats) */
-.row-home-portfolio {
-	display: flex;
-  margin: 5px;
-  height: auto;
-  margin-bottom: 0px;
-}
-
-.card-deck .card {
-  margin-bottom: 0px;
-	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: .5rem;
-}
-.card-deck .card-img-top {
+.card-img-top {
   width: 100%;
-  height: 25vh;
+	min-width: 20vh;
+  height: 30vh;
   object-fit: cover;
+	border-radius: 0.25rem;
 }
-
-@media (min-width: 767px) {
-  .card-deck {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-  }
-  .card-deck .card {
-    -ms-flex: 1 0 0%;
-    flex: 1 0 0%;
-    margin-right: 15px;
-    margin-bottom: 0;
-    margin-left: 15px;
-  }
-	.card-deck .card-img-top {
-	  width: 100%;
-	  height: 35vh;
-	  object-fit: cover;
-	}
-}
-
 .card {
-  margin-bottom: 0px;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border-color: transparent;
+  border-radius: 0rem;
+}
+.card-deck {
+  margin: 20px;
+	margin-left: 55px;
+}
+
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 0.3rem;
+}
+.card-title {
+  margin-bottom: 0.75rem;
 }
