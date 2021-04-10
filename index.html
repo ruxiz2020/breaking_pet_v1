@@ -29,29 +29,57 @@
 
 <body data-target="#navbar-main">
   <div id="navbar-main">
+
     <!-- Fixed navbar -->
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
 
         <div class="navbar-header">
           <div class="pull-left logo">
-            <a class="" href="#home"><img src="assets/img/logo.png" /></a>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
           </div>
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav pull-right">
-            <li class="active"><a href="#home-section" class="smoothScroll">首页</a></li>
-            <li> <a href="#services" class="smoothScroll">狗</a></li>
-            <li> <a href="#about" class="smoothScroll">猫</a></li>
-            <li> <a href="#portfolio" class="smoothScroll">热门</a></li>
-            <li> <a href="#team" class="smoothScroll">团队合作</a></li>
-            <li> <a href="#contact" class="smoothScroll">联系我们</a></li>
+            <li class="active">
+              <a class="nav-link" href="#home-section">首页</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#services">博客</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#portfolio">热门</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#team">团队合作</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#contact">联系我们</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                登陆
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">创立账号</a>
+                <a class="dropdown-item" href="#">信箱</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">登出</a>
+              </div>
+            </li>
           </ul>
+
         </div>
         <!--/.nav-collapse -->
+
       </div>
     </div>
+
+
   </div>
 
   <!-- ==== HEADERWRAP ==== -->
@@ -116,110 +144,110 @@
 
   </section>
   <!-- ==== START BLOG SECTION ==== -->
-    <!-- ==== ABOUT ==== -->
-      <div class="container">
-        <h2 class="centered">BLOGS</h2>
-        <hr>
+  <!-- ==== ABOUT ==== -->
+  <div class="container">
+    <h2 class="centered">BLOGS</h2>
+    <hr>
 
 
-        <!-- ==== START BLOG PORTFOLIO ==== -->
-        <div class="col-md-12">
-          <!-- ==== START OF DOGS BLOG PORTFOLIO ==== -->
-          <h3>Dogs</h3>
-          <div class="row">
-            <div class="card-deck">
-              <div class="card h-100">
-                <img src="assets/img/portfolio/dog08.jpg" class="card-img-top" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Can a Golden Retriever be a good family dog?</h5>
-                  <p class="card-text">Golden retrievers are great with babies, older kids, adults, and other dogs.</p>
-                </div>
-              </div>
-
-              <div class="card h-100">
-                <img src="assets/img/portfolio/dog02.jpg" class="card-img-top" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">What's the best way to socialize a German Shepherd?</h5>
-                  <p class="card-text">Expose your German Shepherd to other people, family, and pets. </p>
-                </div>
-              </div>
-
-              <div class="card h-100">
-                <img src="assets/img/portfolio/dog03.jpg" class="card-img-top" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">How do i train my puppy</h5>
-                  <p class="card-text">Exercise your puppy before training them so they aren’t as hyper.</p>
-                </div>
-              </div>
-
-              <div class="card h-100">
-                <img src="assets/img/portfolio/dog04.jpg" class="card-img-top" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Searching for the best dog groomer in san francisco?</h5>
-                  <p class="card-text">How often your dog should be groomed is, on average, every six weeks.</p>
-                </div>
-              </div>
-
-              <div class="card">
-                <img src="assets/img/portfolio/dog05.jpg" class="card-img-top" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Socializing Your Puppy During the COVID-19 Pandemic</h5>
-                  <p class="card-text">The social distancing required during the COVID-19 pandemic.</p>
-                </div>
-              </div>
-
+    <!-- ==== START BLOG PORTFOLIO ==== -->
+    <div class="col-md-12">
+      <!-- ==== START OF DOGS BLOG PORTFOLIO ==== -->
+      <h3>Dogs</h3>
+      <div class="row">
+        <div class="card-deck">
+          <div class="card h-100">
+            <img src="assets/img/portfolio/dog08.jpg" class="card-img-top" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Can a Golden Retriever be a good family dog?</h5>
+              <p class="card-text">Golden retrievers are great with babies, older kids, adults, and other dogs.</p>
             </div>
           </div>
 
-          <!-- ==== END OF DOGS BLOG PORTFOLIO ==== -->
-          <!-- ==== START OF CATS BLOG PORTFOLIO ==== -->
-          <h3>Cats</h3>
-          <div class="row">
-            <div class="card-deck">
-              <div class="card">
-                <img src="assets/img/portfolio/cat01.jpg" class="card-img-top" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Here's the Best Way to Pet a Cat, According to Science</h5>
-                  <p class="card-text">Signs of cat enjoyment: • Tail held upright and choosing to initiate contact.</p>
-                </div>
-              </div>
-
-              <div class="card">
-                <img src="assets/img/portfolio/cat08.jpg" class="card-img-top" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">What is the most exotic cat in the world?</h5>
-                  <p class="card-text">What is the most exotic cat in the world?</p>
-                </div>
-              </div>
-
-              <div class="card">
-                <img src="assets/img/portfolio/cat03.jpg" class="card-img-top" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">What are ways to calm a kitten?</h5>
-                  <p class="card-text">How To Calm A Kitten: 10 Effective Tricks Let catnip do the trick.</p>
-                </div>
-              </div>
-
-              <div class="card ">
-                <img src="assets/img/portfolio/cat04.jpg" class="card-img-top" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Why does my cat keep staring at me?</h5>
-                  <p class="card-text">Most likely, your cat is checking you out and stalking you.</p>
-                </div>
-              </div>
-
-              <div class="card">
-                <img src="assets/img/portfolio/cat05.jpg" class="card-img-top" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Is it normal for a kitten to sleep a lot?</h5>
-                  <p class="card-text">They will sleep from 18-22 hours a day.</p>
-                </div>
-              </div>
+          <div class="card h-100">
+            <img src="assets/img/portfolio/dog02.jpg" class="card-img-top" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">What's the best way to socialize a German Shepherd?</h5>
+              <p class="card-text">Expose your German Shepherd to other people, family, and pets. </p>
             </div>
           </div>
-          <!-- ==== END OF CATS BLOG PORTFOLIO ==== -->
 
+          <div class="card h-100">
+            <img src="assets/img/portfolio/dog03.jpg" class="card-img-top" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">How do i train my puppy</h5>
+              <p class="card-text">Exercise your puppy before training them so they aren’t as hyper.</p>
+            </div>
+          </div>
+
+          <div class="card h-100">
+            <img src="assets/img/portfolio/dog04.jpg" class="card-img-top" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Searching for the best dog groomer in san francisco?</h5>
+              <p class="card-text">How often your dog should be groomed is, on average, every six weeks.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="assets/img/portfolio/dog05.jpg" class="card-img-top" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Socializing Your Puppy During the COVID-19 Pandemic</h5>
+              <p class="card-text">The social distancing required during the COVID-19 pandemic.</p>
+            </div>
+          </div>
+
+        </div>
       </div>
+
+      <!-- ==== END OF DOGS BLOG PORTFOLIO ==== -->
+      <!-- ==== START OF CATS BLOG PORTFOLIO ==== -->
+      <h3>Cats</h3>
+      <div class="row">
+        <div class="card-deck">
+          <div class="card">
+            <img src="assets/img/portfolio/cat01.jpg" class="card-img-top" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Here's the Best Way to Pet a Cat, According to Science</h5>
+              <p class="card-text">Signs of cat enjoyment: • Tail held upright and choosing to initiate contact.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="assets/img/portfolio/cat08.jpg" class="card-img-top" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">What is the most exotic cat in the world?</h5>
+              <p class="card-text">What is the most exotic cat in the world?</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="assets/img/portfolio/cat03.jpg" class="card-img-top" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">What are ways to calm a kitten?</h5>
+              <p class="card-text">How To Calm A Kitten: 10 Effective Tricks Let catnip do the trick.</p>
+            </div>
+          </div>
+
+          <div class="card ">
+            <img src="assets/img/portfolio/cat04.jpg" class="card-img-top" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Why does my cat keep staring at me?</h5>
+              <p class="card-text">Most likely, your cat is checking you out and stalking you.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="assets/img/portfolio/cat05.jpg" class="card-img-top" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Is it normal for a kitten to sleep a lot?</h5>
+              <p class="card-text">They will sleep from 18-22 hours a day.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ==== END OF CATS BLOG PORTFOLIO ==== -->
+
+    </div>
   </div>
   <!-- ==== END BLOG SECTION ==== -->
 
