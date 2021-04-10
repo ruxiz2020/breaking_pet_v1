@@ -641,33 +641,26 @@ margin-top:30px;
   border-color: transparent;
   border-radius: 0rem;
 }
-.card-columns {
+.card-deck {
   margin: 10px;
-	margin-left: 55px;
+	margin-left: 25px;
 }
-
-@media (min-width: 576px) {
-    .card-columns {
-        column-count: 2;
-    }
-}
-
-@media (min-width: 768px) {
-    .card-columns {
-        column-count: 3;
-    }
-}
-
-@media (min-width: 992px) {
-    .card-columns {
-        column-count: 4;
-    }
-}
-
-@media (min-width: 1200px) {
-    .card-columns {
-        column-count: 5;
-    }
+@media (min-width: 767px) {
+  .card-deck {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .card-deck .card {
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+    margin-right: 15px;
+    margin-bottom: 0;
+    margin-left: 15px;
+  }
 }
 
 .card-body {
