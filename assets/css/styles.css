@@ -60,6 +60,7 @@ display: inline-block;
 .logo a img{
 background:transparent;
 }
+
 .navbar-inverse {
 background-color: #ED8181;
 padding: 20px 0;
@@ -68,18 +69,13 @@ border-color: #F79D9D;
 .navbar-inverse .navbar-nav > li > a {
 color: #FFFFFF;
 }
-.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-color: #1F0E07;
-}
+
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
 color: #FFE6E6;
 background-color: #C34E4E;
 border-radius: 10px;
 }
-.navbar-inverse .navbar-toggle {
-border-color: #333;
-background: rgb(31, 14, 7);
-}
+
 .tb {
 display: table;
 width: 100%;
@@ -113,7 +109,7 @@ text-align: center;
 }
 .navbar-default {
 	border-color: transparent;
-	background-color: #dadada;
+	background-color: #F79D9D;
 }
 .navbar-inverse .navbar-brand {
 	font-weight: 500;
@@ -620,7 +616,19 @@ margin-top:30px;
 }
 
 /******************HOME************************/
-/*****************formatting the dog & cat portofolio section*******************/
+/*****************start navbar section*******************/
+#navbar-main {
+	background-color: #ED8181;
+	border-color: #F79D9D;
+}
+.navbar {
+	background-color: #ED8181;
+	border-color: #F79D9D;
+}
+
+/*****************end navbar section*******************/
+
+/*****************start formatting the dog & cat blog section*******************/
 .card-img-top {
   width: 100%;
 	min-width: 20vh;
@@ -672,3 +680,7 @@ margin-top:30px;
 .card-title {
   margin-bottom: 0.75rem;
 }
+.header-left-search {
+	margin-left: 15px;
+}
+/*****************end formatting the dog & cat blog section*******************/
