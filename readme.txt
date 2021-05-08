@@ -6,4 +6,8 @@ Key features
 
 Run demo
 
-python3 -m http.server --cgi 8080
+```
+export FLASK_APP=app
+export FLASK_ENV=development
+python3 app.py
+```

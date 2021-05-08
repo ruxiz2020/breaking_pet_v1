@@ -1,0 +1,104 @@
+<!doctype html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="webthemez">
+  <title>北美宠物论坛 | Breaking Pet</title>
+
+  <!-- Bootstrap core CSS -->
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+  <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="/static/css/styles.css" rel="stylesheet">
+
+</head>
+
+<body data-target="#navbar-main">
+
+  <!-- Wrap all page content here -->
+  <div id="navbar-main" class="fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark primary-color navbar-inverse">
+      <div class="container">
+        <a class="navbar-brand" href="/">汪汪喵喵</a>
+        <img style="float: right; width: 90px;" alt="" src="https://i.ibb.co/9yHBm0t/icon-2.png" />
+
+        <!-- Collapse button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+          <!-- Collapsible content -->
+          <div class="collapse navbar-collapse" id="basicExampleNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home-section">家页
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#about">简介</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog-section">博客分类</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">联系我们</a>
+            </li>
+
+          </ul>
+        </div>
+        <!-- End of responsive navbar -->
+      </div>
+      <!-- End of container -->
+    </nav>
+    <!--/.Navbar-->
+  </div>
+
+    <!-- Begin page content -->
+    <main id="content" role="main" class="container">
+
+      <div class="row">
+
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+        {% for message in messages %}
+        <div class="alert alert-block alert-info fade in">
+          <a class="close" data-dismiss="alert">&times;</a>
+          {{ message }}
+        </div>
+        {% endfor %}
+        {% endif %}
+        {% endwith %}
+
+        {% block content %}{% endblock %}
+
+
+      </div>
+    </main>
+
+
+
+  </div>
+
+  <div id="footer">
+    <div class="container">
+      <p>汪汪喵喵 &copy; All Rights Reserved.</p>
+      {% block footer %}{% endblock %}
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

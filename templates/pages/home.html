@@ -1,0 +1,376 @@
+{% extends 'layouts/main.html' %}
+{% block title %}汪汪喵喵{% endblock %}
+{% block content %}
+
+
+<div class="spacer">
+  &nbsp;
+</div>
+
+<!-- ==== HEADERWRAP ==== -->
+<div id="home-section">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h1>北美宠物论坛</h1>
+        <p>有关宠物的一切话题</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /headerwrap -->
+
+<!-- ==== NEEDTOKNOW ==== -->
+
+<section class="blog-posts">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="all-blog-posts">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="blog-post">
+                <div class="blog-thumb">
+                  <img src="/static/img/ntk/cat.png" alt="">
+                </div>
+                <div class="down-content">
+                  <span>猫/英短</span>
+                  <a href="post-details.html">
+                    <h4>一篇短文带你介绍英短</h4>
+                  </a>
+                  <ul class="post-info">
+                    <li><a href="#">韦德</a></li>
+                    <li><a href="#">2021/04/08</a></li>
+                    <li><a href="#">12 评论</a></li>
+                  </ul>
+                  <p> 这是一个测试样本，这是一只我即将到手的英短.</p>
+                  <div class="post-options">
+                    <div class="row">
+                      <div class="col-6">
+                        <ul class="post-tags">
+                          <li><i class="fa fa-tags"></i></li>
+                          <li><a href="#">英短</a>,</li>
+                          <li><a href="#">购买</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-6">
+                        <ul class="post-share">
+                          <li><i class="fa fa-share-alt"></i></li>
+                          <li><a href="#">Facebook</a>,</li>
+                          <li><a href="#"> Twitter</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-12">
+              <div class="main-button">
+                <a href="blog.html">View All Posts</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="sidebar">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="sidebar-item recent-posts">
+                <div class="sidebar-heading">
+                  <h2>最新推文</h2>
+                </div>
+                <div class="content">
+                  <ul>
+                    <div class='row'>
+                      <div class='col-lg-6' href='post-details.html'>
+                        <h5> 当后妈的一天哈哈哈哈</h5>
+                        <!-- 狗子的妈妈上班了今天 帮她带一天 -->
+                        <span>Apr 14, 2021</span>
+                      </div>
+
+                      <div class="col-lg-6 blog-thumb">
+                        <img src="/static/img/ntk/teddy.png" alt="">
+                      </div>
+                    </div>
+                    <div class='row'>
+                      <div class='col-lg-6' href='post-details.html'>
+                        <h5>洛杉矶 小兔宝宝寻好人家</h5>
+                        <!-- 三月大大纯血小侏儒兔宝宝寻好人家 -->
+                        <span>2021/04/07</span>
+                      </div>
+
+                      <div class="col-lg-6 blog-thumb">
+                        <img src="/static/img/ntk/tuzi.png" alt="">
+                      </div>
+                    </div>
+                    <div class='row'>
+                      <div class='col-lg-6' href='post-details.html'>
+                        <h5>请问各位资深猫奴它们的品相如何呀</h5>
+                        <!-- 想要从白俄罗斯买只金渐层，求意见 -->
+                        <span>2021/04/13</span>
+                      </div>
+
+                      <div class="col-lg-6 blog-thumb">
+                        <img src="/static/img/ntk/cat2.png" alt="">
+                      </div>
+                    </div>
+                    <!-- try -->
+                    <div class='row'>
+                      <div class='col-lg-6' href='post-details.html'>
+                        <h5> 纽约附近，想领养小猫</h5>
+                        <span>2021/04/12</span>
+                      </div>
+
+                      <div class="col-lg-6 blog-thumb">
+                        <img src="/static/img/ntk/cat3.png" alt="">
+                      </div>
+                    </div>
+                    <div class='row'>
+                      <div class='col-lg-6' href='post-details.html'>
+                        <h5> 我家龙猫突然眼睛白了一块，怎么办啊</h5>
+                        <span>2021/04/06</span>
+                      </div>
+
+                      <div class="col-lg-6 blog-thumb">
+                        <img src="/static/img/ntk/cat4.png" alt="">
+                      </div>
+                    </div>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="col-lg-4"> -->
+      <div class="col-lg-4 right-side">
+        <div class="sidebar">
+          <div class="row">
+
+
+            <div class="col-lg-12">
+              <div class="sidebar-item search">
+                <form id="search_form" name="gs" method="GET" action="#">
+                  <input type="text" name="q" class="searchText" placeholder="type to search..." autocomplete="on">
+                </form>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="sidebar-item tags">
+                <div class="sidebar-heading">
+                  <h2>Tag Clouds</h2>
+                </div>
+                <div class="content">
+                  <ul>
+                    <li><a href="#">英短</a></li>
+                    <li><a href="#">斗牛犬</a></li>
+                    <li><a href="#">美短</a></li>
+                    <li><a href="#">柯基</a></li>
+                    <li><a href="#">拉布拉多</a></li>
+                    <li><a href="#">金毛</a></li>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+</section>
+<!-- ==== END OF  NEEDTOKNOW==== -->
+
+<!-- ==== START OF SERVICES ==== -->
+<div id="about">
+  <!-- container -->
+  <section class="hero-section section">
+    <div class="container">
+      <div class="highlight tb">
+        <div class="tb-cell">
+          <p>关于宠物的一切话题!</br>
+            THE BEST THERAPIST HAS PUR AND FOUR LEGS</p>
+        </div>
+        <div class="links tb-cell">
+          <div class="reservation-link">
+            <a href="#" class="btn reservation-btn">查看详情</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+</div>
+<!-- ==== END OF SERVICES ==== -->
+
+
+<!-- ==== START BLOG SUMMARY SECTION ==== -->
+<!-- ==== ABOUT ==== -->
+<div id="blog-section">
+  <div class="container">
+    <h2 class="centered">BLOGS</h2>
+    <hr>
+    <!-- ==== START BLOG PORTFOLIO ==== -->
+    <div class="col-md-12">
+      <!-- ==== START OF DOGS BLOG PORTFOLIO ==== -->
+      <h3>Dogs</h3>
+      <div class="row">
+        <div class="card-deck">
+          <div class="card ">
+            <img src="/static/img/portfolio/dog08.jpg" class="card-img-top" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">如何正确的在家训练小狗</h5>
+              <p class="card-text">每天定时喂食，每天定时让狗狗排泄，使用固定的口令。</p>
+            </div>
+          </div>
+
+          <div class="card ">
+            <img src="/static/img/portfolio/dog02.jpg" class="card-img-top" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">黑背和淘气孩子相处安全吗？</h5>
+              <p class="card-text">德牧很爱和小朋友相处，但如果孩子很小，要让双方在大人的注视之下相处。 </p>
+            </div>
+          </div>
+
+          <div class="card ">
+            <img src="/static/img/portfolio/dog03.jpg" class="card-img-top" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">如何阻止狗狗扑人？</h5>
+              <p class="card-text">这个问题，只要训练方法正确，纠正起来不是难事——根本不需要强烈的手法或工具。</p>
+            </div>
+          </div>
+
+          <div class="card ">
+            <img src="/static/img/portfolio/dog04.jpg" class="card-img-top" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">三番市请推荐好的狗狗理发师</h5>
+              <p class="card-text">作为一中精致的男狗，我家亨利每年夏天都会修剪毛发避暑的。</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="/static/img/portfolio/dog05.jpg" class="card-img-top" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">疫情期间狗狗怎么交友？</h5>
+              <p class="card-text">狗狗和小朋友一样隔离在家久了难免寂寞烦躁。</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- ==== END OF DOGS BLOG PORTFOLIO ==== -->
+      <!-- ==== START OF CATS BLOG PORTFOLIO ==== -->
+      <h3>Cats</h3>
+      <div class="row">
+        <div class="card-deck">
+          <div class="card">
+            <img src="/static/img/portfolio/cat01.jpg" class="card-img-top" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">怎么合理的撸猫， 你爽它也爽！</h5>
+              <p class="card-text">合理的撸猫手法，可以让猫咪翻出肚皮，露出陶醉的神情，发出的咕噜声。</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="/static/img/portfolio/cat08.jpg" class="card-img-top" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">名品猫知多少?</h5>
+              <p class="card-text">猫中贵族你知道是哪些吗？</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="/static/img/portfolio/cat03.jpg" class="card-img-top" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">日本的猫文化：日本人为何痴迷爱猫?</h5>
+              <p class="card-text">招财猫源于日本，自古以来被日本视为招财招福的吉祥物。</p>
+            </div>
+          </div>
+
+          <div class="card ">
+            <img src="/static/img/portfolio/cat04.jpg" class="card-img-top" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">为什么猫咪总看着我？</h5>
+              <p class="card-text">猫咪的好奇心是很强的，它喜欢盯着你看。</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="/static/img/portfolio/cat05.jpg" class="card-img-top" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">猫咪爱睡觉，是累了还是生病？</h5>
+              <p class="card-text">要判断你的猫是否生病，如果猫的体重一直往下降，就需要接受医学救助。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ==== END OF CATS BLOG PORTFOLIO ==== -->
+    </div>
+  </div>
+  <!-- ==== END BLOG SECTION ==== -->
+</div>
+<!-- ==== END BLOG SUMMARY SECTION ==== -->
+
+<!-- ==== START CONTACT SECTION ==== -->
+<!-- ==== CONTACT ==== -->
+<div id="contact" name="contact">
+  <div class="container">
+    <div class="row">
+      <h2 class="centered">Contact</h2>
+      <hr>
+
+    </div>
+    <div class="row">
+      <div class="col-md-7">
+        <strong>Ask how to Reach Us!</strong>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+        <form id="contact" method="post" class="form" role="form">
+          <div class="row">
+            <div class="col-md-12 form-group">
+              <input class="form-control" id="name" name="name" placeholder="Name" type="text" required />
+            </div>
+            <div class="col-md-12 form-group">
+              <input class="form-control" id="email" name="email" placeholder="Email" type="email" required />
+            </div>
+            <div class="col-md-12 form-group">
+              <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
+              <button class="btn btn-lg pull-left" type="submit">Send Message</button>
+            </div>
+          </div>
+
+        </form>
+        <!-- form -->
+      </div>
+      <div class="col-md-5">
+
+
+        <i class="fa fa-map-marker fa-2x"></i>
+        <strong>St. Peters Cathedral</strong>
+        <p>321 Awesome Street<br>
+          New York, NY 12345</p>
+
+        <br />
+        <i class="fa fa-envelope-o fa-2x"></i>
+        <p>info@Johndow.com</p>
+
+        <br />
+        <i class="fa fa-phone fa-2x"></i>
+        <p> +1 235 123 1234</p>
+
+      </div>
+    </div>
+    <!-- row -->
+
+  </div>
+</div>
+<!-- container -->
+<!-- ==== END CONTACT SECTION ==== -->
+
+{% endblock %}
