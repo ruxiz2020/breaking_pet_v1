@@ -22,6 +22,12 @@ def index():
     return render_template('pages/home.html')
 
 
+@app.route('/users/user_01')
+def show_user_profile():
+
+    return render_template('pages/profile.html')
+
+
 # Default port:
 if __name__ == '__main__':
-    app.run(port=5051, debug=True)
+    app.run(port=5052, debug=True)

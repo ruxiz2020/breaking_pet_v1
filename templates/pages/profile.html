@@ -1,0 +1,243 @@
+{% extends 'layouts/main.html' %}
+{% block title %}Breaking Pets | Vet Reviews{% endblock %}
+{% block content %}
+
+<!-- ==== SPACING ==== -->
+<div class="spacer">
+  &nbsp;
+</div>
+
+<div class="col-lg-12">
+
+  <!-- Deal with margin below fixed bar -->
+  <div class="spacer">
+    &nbsp;
+  </div>
+
+  <link href="/static/css/profile.css" rel="stylesheet">
+
+  <!-- Start of 3 horizontal top buttons -->
+  <div class="card-columns">
+    <div class="card bg-light">
+      <div class="card-body text-center">
+        <a href="/blog/create">
+          <p class="card-text">发帖</p>
+        </a>
+      </div>
+    </div>
+    <div class="card bg-light">
+      <div class="card-body text-center">
+        <a href="/">
+          <p class="card-text">好友列表</p>
+        </a>
+      </div>
+    </div>
+    <div class="card bg-light">
+      <div class="card-body text-center">
+        <a href="/">
+          <p class="card-text">邮箱</p>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- End of 3 horizontal top buttons -->
+
+  <hr>
+
+  <div class="container">
+    <div class="main-body">
+
+
+      <div class="row ">
+
+        <!-- Start of left profile card -->
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-body">
+              <div class="d-flex flex-column align-items-center text-center">
+                <img src="/static/img/portfolio/cat_owner.png" alt="Admin" class="rounded-circle" width="150">
+                <div class="mt-3">
+                  <h4>三只扁鼻子🐱的妈妈</h4>
+                  <p class="text-secondary mb-1">成员编号: 1</p>
+                  <p class="text-muted font-size-sm">城市, 美国西雅图</p>
+                  <button class="btn btn-primary">关注此人</button>
+                  <button class="btn btn-outline-primary">
+                    <a href="/messages">发私信</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mt-3">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                <h6 class="mb-0">加入时间</h6>
+                <span class="text-secondary">2011-07-04</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                <h6 class="mb-0">汪喵币</h6>
+                <span class="text-secondary">$2500</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                <h6 class="mb-0">信用值</h6>
+                <span class="text-secondary">30000</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                <h6 class="mb-0">发帖数</h6>
+                <span class="text-secondary">23</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                <h6 class="mb-0">答题数</h6>
+                <span class="text-secondary">51</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- End of left profile card -->
+
+        <div class="col-lg-8">
+
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm-3">
+                <h6 class="mb-0">全名</h6>
+              </div>
+              <div class="col-sm-9 text-secondary">
+                三只扁鼻子🐱的妈妈
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <h6 class="mb-0">性别</h6>
+              </div>
+              <div class="col-sm-9 text-secondary">
+                女
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <h6 class="mb-0">电话</h6>
+              </div>
+              <div class="col-sm-9 text-secondary">
+                1234567890
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <h6 class="mb-0">邮箱</h6>
+              </div>
+              <div class="col-sm-9 text-secondary">
+                catlover@gmail.com
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <h6 class="mb-0">职业</h6>
+              </div>
+              <div class="col-sm-9 text-secondary">
+                编辑, 摄影
+              </div>
+            </div>
+          </div>
+
+          <hr>
+          <!-- Start of right pet profile card -->
+
+          <div class="row">
+              <div class="col-lg-4">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="d-flex flex-column align-items-center text-center">
+                      <img src="/static/img/portfolio/bianbizi.jpeg" class="card-img-profile" alt="...">
+                      <div class="mt-3">
+                        <h5 class="card-title">TA的宠物</h5>
+                        <p class="card-text"><small>宠物名: 扁鼻子</small></p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 months ago</small></p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="d-flex flex-column align-items-center text-center">
+                      <img src="/static/img/portfolio/bianbizi2.jpg" class="card-img-profile" alt="...">
+                      <div class="mt-3">
+                        <h5 class="card-title">TA的宠物</h5>
+                        <p class="card-text"><small>宠物名: 粘粘</small></p>
+                        <p class="card-text"><small class="text-muted">Last updated 2 months ago</small></p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="d-flex flex-column align-items-center text-center">
+                      <img src="/static/img/portfolio/bianbizi3.jpg" class="card-img-profile" alt="...">
+                      <div class="mt-3">
+                        <h5 class="card-title">TA的宠物</h5>
+                        <p class="card-text"><small>宠物名: 饭团子</small></p>
+                        <p class="card-text"><small class="text-muted">Last updated 2 months ago</small></p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+          </div>
+          <!-- End of right pet profile card -->
+
+
+        </div>
+
+
+
+
+
+      </div>
+
+      <!-- Page Content -->
+      <div class="container">
+
+        <h4 class="font-weight-light text-center text-lg-left mt-4 mb-0">图集</h4>
+
+        <hr class="mt-2 mb-5">
+
+        <div class="row text-center text-lg-left">
+
+          <div class="col-lg-3">
+            <div class="card">
+              <img class="card-img-profile" src="/static/img/portfolio/bianbizi2.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card">
+              <img class="card-img-profile" src="/static/img/portfolio/bianbizi.jpeg" alt="">
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- /.container -->
+
+
+
+    </div>
+  </div>
+
+</div>
+{% endblock %}
