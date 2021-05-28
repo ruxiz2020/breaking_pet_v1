@@ -21,6 +21,9 @@ app.config['CKEDITOR_HEIGHT'] = 400
 def index():
     return render_template('pages/home.html')
 
+@app.route('/blogs/blog1')
+def show_blog():
+    return render_template('pages/blog.html')
 
 # Default port:
 if __name__ == '__main__':
